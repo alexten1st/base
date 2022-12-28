@@ -3,7 +3,7 @@ const connectDB = require("./db/db")
 const {graphqlHTTP} = require("express-graphql")
 const schema = require("./qraphql/schema")
 const cors = require("cors")
-const PORT = 3005;
+const PORT = 3010;
 const app = express()
 
 app.use(cors())

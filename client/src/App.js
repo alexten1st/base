@@ -6,7 +6,7 @@ import StartPage from "./components/StartPage";
 import {ApolloProvider, ApolloClient, InMemoryCache} from "@apollo/client";
 
 export const client = new ApolloClient({
-    uri: "http://localhost:3005/graphql",
+    uri: "http://localhost:3010/graphql",
     cache: new InMemoryCache(),
   });
 function App() {

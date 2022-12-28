@@ -19,10 +19,10 @@ export default function Note() {
     }
   return (
     <>
-        <Link class="btn btn-primary mb-4" to="/notes" role="button">Назад</Link>
+        <Link className="btn btn-primary mb-4" to="/notes" role="button">Назад</Link>
       {loading ? (
-        <div class="spinner-border" role="status">
-        <span class="visually-hidden">Loading...</span>
+        <div className="spinner-border" role="status">
+        <span className="visually-hidden">Loading...</span>
       </div>
       ) : (
         <div className="card border-success mb-3" style={{ minWidth: "30rem" }}>

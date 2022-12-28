@@ -10,8 +10,8 @@ export default function NotesList() {
   const { loading, error, data } = useQuery(getNotes);
   return (
     <>
-    {loading ? <div class="spinner-border" role="status">
-  <span class="visually-hidden">Loading...</span>
+    {loading ? <div className="spinner-border" role="status">
+  <span className="visually-hidden">Loading...</span>
 </div>: <>
         <div className="d-flex mb-4">
         <h2>Notes list</h2>
