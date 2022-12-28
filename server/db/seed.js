@@ -8,6 +8,7 @@ const notes = [
     {title:"new title", content: "some content"},
     {title:"old-fashion title", content: "some content"}
 ];
+
 const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true,

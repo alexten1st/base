@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import NoteForm from "./NoteForm";
 import { useQuery } from "@apollo/client";
+
+import NoteForm from "./NoteForm";
 import {getNotes} from "../graphql/querrys/getNotes"
 
 export default function NotesList() {

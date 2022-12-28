@@ -1,10 +1,12 @@
 import { useState } from "react";
-import { updateNoteMutation } from "../graphql/mutations/updateNote";
-import { createNoteMutation } from "../graphql/mutations/createNote";
 import { useParams } from "react-router-dom";
 import { useMutation } from "@apollo/client";
+
 import { getNote } from "../graphql/querrys/getNote";
 import { getNotes } from "../graphql/querrys/getNotes";
+import { updateNoteMutation } from "../graphql/mutations/updateNote";
+import { createNoteMutation } from "../graphql/mutations/createNote";
+
 export default function NoteForm({ setUpdatePhase }) {
   const { id } = useParams();
   const [title, setTitle] = useState("");
